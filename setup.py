@@ -14,8 +14,7 @@ requirements = [
     'beautifulsoup4',
     'pandas',
     'pydub',
-    'requests',
-    'sqlite3'
+    'requests'
 ]
 
 setup_requirements = ['pytest-runner', ]
