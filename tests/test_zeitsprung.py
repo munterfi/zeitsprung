@@ -4,9 +4,7 @@
 
 import pytest
 
-
-from zeitsprung import zeitsprung
-
+from zeitsprung.base import Base
 
 @pytest.fixture
 def response():

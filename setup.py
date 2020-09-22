@@ -10,7 +10,13 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = [ ]
+requirements = [
+    'beautifulsoup4',
+    'pandas',
+    'pydub',
+    'requests',
+    'sqlite3'
+]
 
 setup_requirements = ['pytest-runner', ]
 
@@ -31,7 +37,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    description="Python Boilerplate contains all the boilerplate you need to create a Python package.",
+    description="Scraper for www.zeitsprung.fm, a great history podcast.",
     install_requires=requirements,
     license="MIT license",
     long_description=readme + '\n\n' + history,

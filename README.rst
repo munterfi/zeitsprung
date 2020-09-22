@@ -20,7 +20,7 @@ zeitsprung
 
 
 
-Python Boilerplate contains all the boilerplate you need to create a Python package.
+Scraper for www.zeitsprung.fm, a great history podcast.
 
 
 * Free software: MIT license
@@ -30,7 +30,13 @@ Python Boilerplate contains all the boilerplate you need to create a Python pack
 Features
 --------
 
-* TODO
+* Scrapes episode meta data and audio.
+
+To Do
+-----
+
+* Speech recognition
+* NLP
 
 Credits
 -------
