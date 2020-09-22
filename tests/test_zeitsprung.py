@@ -4,7 +4,8 @@
 
 import pytest
 
-from zeitsprung.base import Base
+# from zeitsprung.database import SQLiteEngine
+# db = SQLiteEngine('tmp.db')
 
 @pytest.fixture
 def response():
