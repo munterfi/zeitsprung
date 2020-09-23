@@ -3,8 +3,9 @@ from sqlite3 import connect
 from unicodedata import normalize
 from zeitsprung.base import Base
 
-class SQLiteEngine(Base):
 
+class SQLiteEngine(Base):
+    """ Class to set up and access a SQLite database to store the data from zeitsprung.fm """
     def __init__(self, db_file: str, verbose: bool = True) -> None:
         super().__init__(verbose)
         self.db_file = db_file
@@ -14,7 +15,7 @@ class SQLiteEngine(Base):
         conn = None
         try:
             conn = connect(self.db_file)
-        except Error as e:
+        except BaseException as e:
             print(e)
         return conn
 
@@ -54,7 +55,8 @@ class SQLiteEngine(Base):
         cur = conn.cursor()
         cur.execute(f"""
         INSERT INTO meta (uid, published_at, modified_at, abbreviation, title, description, url_episode, url_audio)
-        VALUES('{row[0]}', '{row[1]}', '{row[2]}', '{row[3]}', '{normalize("NFKD", row[4]).replace("'", '')}', '{normalize("NFKD", row[5]).replace("'", '')}', '{row[6]}', '{row[7]}');
+        VALUES('{row[0]}', '{row[1]}', '{row[2]}', '{row[3]}', '{normalize("NFKD", row[4]).replace("'", '')}',
+            '{normalize("NFKD", row[5]).replace("'", '')}', '{row[6]}', '{row[7]}');
         """)
         conn.commit()
         conn.close()
@@ -85,7 +87,8 @@ class SQLiteEngine(Base):
         rows = cur.fetchall()
         conn.close()
         df = DataFrame([list(row) for row in rows],
-               columns=['uid', 'published_at', 'modified_at', 'abbreviation', 'title', 'description', 'url_episode', 'url_audio'])
+                       columns=['uid', 'published_at', 'modified_at', 'abbreviation',
+                                'title', 'description', 'url_episode', 'url_audio'])
         df['published_at'] = to_datetime(df['published_at'])
         df['modified_at'] = to_datetime(df['modified_at'])
         return df
@@ -98,5 +101,5 @@ class SQLiteEngine(Base):
         rows = cur.fetchall()
         conn.close()
         df = DataFrame([list(row) for row in rows],
-               columns=['uid', 'file_path', 'duration', 'frame_rate', 'frame_width'])
+                       columns=['uid', 'file_path', 'duration', 'frame_rate', 'frame_width'])
         return df

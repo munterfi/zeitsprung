@@ -4,5 +4,5 @@ __author__ = """Merlin Unterfinger"""
 __email__ = 'info@munterfinger.ch'
 __version__ = '0.1.0'
 
-from .scrape import Scraper
-from .database import SQLiteEngine
+from zeitsprung.scrape import Scraper
+from zeitsprung.database import SQLiteEngine

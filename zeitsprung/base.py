@@ -1,5 +1,6 @@
 from datetime import datetime, timezone
 
+
 class Base:
     """Base class for 'zeitsprung-fm' package classes."""
 
