@@ -15,15 +15,25 @@ zeitsprung
      :target: https://pyup.io/repos/github/munterfinger/zeitsprung/
      :alt: Updates
 
+
 This package provides a scraper for www.zeitsprung.fm, a great history podcast.
-To get all episodes from the website, simply start the scraper::
+To get the metadata of all episodes from the website, simply start the scraper::
 
     from zeitsprung.scrape import Scraper
     s = Scraper('path/to/folder/for/database')
     s.run()
 
-This should download the all episode metadata and save the audio files in
-'.wav' format to the specified folder.
+The scraper then downloads the all episode metadata and audio files. The metadata is written to the 'meta' table in the
+database. The audio files are converted to '.wav' files and saved separately to a folder, while a link to the file is
+stored in the 'audio' table in the database.
+
+To access the data, create a SQLiteEngine::
+
+    from zeitsprung.database import SQLiteEngine
+    db = SQLiteEngine('path/to/folder/for/database/zeitsprung.db')
+    db.query_all_meta()
+
+Now have fun with analysing the episodes of zeitsprung!
 
 Features
 --------
@@ -40,5 +50,5 @@ To Do
 References
 ----------
 
-* https://www.zeitsprung.fm
+* https://www.zeitsprung.fm, check it out!
 * This package is licensed under MIT, see the LICENSE file for details.
