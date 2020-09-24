@@ -4,6 +4,21 @@
 Installation
 ============
 
+System dependencies
+-------------------
+The zeitsprung package depends on the pydub package, which needs ffmpeg to be installed on the system.
+
+macOS (using homebrew)
+
+.. code-block:: console
+
+    $ brew install ffmpeg
+
+Linux (using aptitude):
+______
+.. code-block:: console
+
+    $ apt-get install ffmpeg libavcodec-extra
 
 Stable release
 --------------

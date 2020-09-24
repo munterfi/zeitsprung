@@ -1,5 +1,5 @@
-Welcome to zeitsprung's documentation!
-======================================
+zeitsprung |version|
+====================
 
 .. toctree::
    :maxdepth: 2
