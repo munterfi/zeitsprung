@@ -10,7 +10,7 @@ zeitsprung
 .. image:: https://img.shields.io/pypi/v/zeitsprung.svg
         :target: https://pypi.python.org/pypi/zeitsprung
 
-.. image:: https://img.shields.io/travis/munterfinger/zeitsprung.svg
+.. image:: https://github.com/munterfinger/zeitsprung/workflows/build/badge.svg
         :target: https://travis-ci.com/munterfinger/zeitsprung
 
 .. image:: https://readthedocs.org/projects/zeitsprung/badge/?version=latest
