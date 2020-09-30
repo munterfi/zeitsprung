@@ -1,8 +1,11 @@
 ==========
 zeitsprung
 ==========
+
 .. raw:: html
-   <img src="https://raw.githubusercontent.com/munterfinger/zeitsprung/master/docs/_static/favicon.png" align="right" alt="" width="120"/>
+   <h1 align="center">
+   <a href="https://github.com/munterfinger/zeitsprung"><img width="120" src="docs/_static/logo.svg" alt="zeitsprung"></a>
+   </h1>
 
 .. image:: https://img.shields.io/pypi/v/zeitsprung.svg
         :target: https://pypi.python.org/pypi/zeitsprung
