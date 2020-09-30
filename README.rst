@@ -1,6 +1,8 @@
 ==========
 zeitsprung
 ==========
+.. raw:: html
+   <img src="https://github.com/munterfinger/zeitsprung/blob/master/docs/_static/favicon.png" align="right" alt="" width="120"/>
 
 .. image:: https://img.shields.io/pypi/v/zeitsprung.svg
         :target: https://pypi.python.org/pypi/zeitsprung
@@ -11,6 +13,7 @@ zeitsprung
 .. image:: https://readthedocs.org/projects/zeitsprung/badge/?version=latest
         :target: https://zeitsprung.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
+
 .. image:: https://pyup.io/repos/github/munterfinger/zeitsprung/shield.svg
      :target: https://pyup.io/repos/github/munterfinger/zeitsprung/
      :alt: Updates
@@ -19,7 +22,7 @@ zeitsprung
 This package provides a scraper for www.zeitsprung.fm, a great history podcast.
 To get the metadata of all episodes from the website, simply start the scraper::
 
-    from zeitsprung.scrape import Scraper
+    from zeitsprung.scraping import Scraper
     s = Scraper('path/to/folder/for/database')
     s.run()
 
@@ -31,7 +34,13 @@ To access the data, create a SQLiteEngine::
 
     from zeitsprung.database import SQLiteEngine
     db = SQLiteEngine('path/to/folder/for/database/zeitsprung.db')
+
+Query the meta data from the database::
+
     db.query_all_meta()
+
+And the audio file paths and meta data::
+
     db.query_all_audio()
 
 Now have fun with analysing the episodes of zeitsprung!
