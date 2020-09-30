@@ -11,7 +11,7 @@ zeitsprung
         :target: https://pypi.python.org/pypi/zeitsprung
 
 .. image:: https://github.com/munterfinger/zeitsprung/workflows/build/badge.svg
-        :target: https://travis-ci.com/munterfinger/zeitsprung
+        :target: https://github.com/munterfinger/zeitsprung/actions?query=workflow%3Abuild
 
 .. image:: https://readthedocs.org/projects/zeitsprung/badge/?version=latest
         :target: https://zeitsprung.readthedocs.io/en/latest/?badge=latest
