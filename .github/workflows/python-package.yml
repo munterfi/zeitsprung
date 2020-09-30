@@ -40,3 +40,6 @@ jobs:
     - name: Test with pytest
       run: |
         pytest --cov=zeitsprung
+    - name: Upload coverage reports to Codecov
+      run: |
+        codecov
