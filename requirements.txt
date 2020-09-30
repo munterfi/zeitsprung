@@ -1,4 +1,4 @@
 beautifulsoup4
 pandas
-pydub
+pydub==0.24.1
 requests
