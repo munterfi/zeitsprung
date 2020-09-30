@@ -17,5 +17,6 @@ To access the data, create a SQLiteEngine::
     from zeitsprung.database import SQLiteEngine
     db = SQLiteEngine('path/to/folder/for/database/zeitsprung.db')
     db.query_all_meta()
+    db.query_all_audio()
 
 Now have fun with analysing the episodes of zeitsprung!

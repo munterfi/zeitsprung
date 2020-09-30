@@ -8,7 +8,6 @@ To get the metadata and audio files of all episodes from the website, simply imp
    :maxdepth: 2
    :caption: Contents:
 
-   readme
    installation
    usage
    modules
@@ -16,8 +15,8 @@ To get the metadata and audio files of all episodes from the website, simply imp
    authors
    history
 
-Indices and tables
-==================
+Indices
+=======
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
