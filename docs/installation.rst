@@ -15,7 +15,7 @@ macOS (using homebrew)
     $ brew install ffmpeg
 
 Linux (using aptitude):
-______
+_______________________
 .. code-block:: console
 
     $ apt-get install ffmpeg libavcodec-extra
