@@ -14,9 +14,3 @@ To get the metadata and audio files of all episodes from the website, simply imp
    contributing
    authors
    history
-
-Indices
-=======
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
