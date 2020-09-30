@@ -1,3 +1,8 @@
+.. image:: https://raw.githubusercontent.com/munterfinger/zeitsprung/master/docs/_static/logo.svg
+   :width: 120 px
+   :alt: zeitsprung.fm
+   :align: right
+
 ==========
 zeitsprung
 ==========
@@ -15,11 +20,6 @@ zeitsprung
 .. image:: https://pyup.io/repos/github/munterfinger/zeitsprung/shield.svg
      :target: https://pyup.io/repos/github/munterfinger/zeitsprung/
      :alt: Updates
-
-.. image:: https://raw.githubusercontent.com/munterfinger/zeitsprung/master/docs/_static/logo.svg
-   :width: 120 px
-   :alt: zeitsprung.fm
-   :align: right
 
 This package provides a scraper for www.zeitsprung.fm, a great history podcast.
 To get the metadata of all episodes from the website, simply start the scraper::
