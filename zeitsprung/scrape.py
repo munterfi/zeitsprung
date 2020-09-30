@@ -12,7 +12,7 @@ from zeitsprung.database import SQLiteEngine
 
 
 class Scraper(Base):
-    """Class for scraping and preprocessing the data from 'www.zeitsprung.fm'."""
+    """Class for scraping and preprocessing the data from the 'www.zeitsprung.fm' website."""
 
     def __init__(self, data_folder: str, update_interval: int = 24*60*60,
                  reset: bool = False, verbose: bool = True) -> None:
@@ -56,7 +56,16 @@ class Scraper(Base):
 
         self.current_episode = self.db.query_last_episode_id()
 
-    def __str__(self):
+    def __str__(self) -> str:
+        """
+        Print function of the class.
+
+        Returns
+        -------
+        str
+            A string, which describes the class instance.
+
+        """
         return f"Scraper created at '{self.created_at}' with db connection to " \
                f"'{self.db.db_file}', current episode is 'ZS{self.current_episode}'."
 
@@ -124,7 +133,7 @@ class Scraper(Base):
             audio = AudioSegment.from_file(audio_mp3)
             return audio
         else:
-            self._print(f'No audio file available for this episode.')
+            self._print('No audio file available for this episode.')
             return None
 
     def save_episode_audio(self, audio: AudioSegment, file_name: str) -> None:
