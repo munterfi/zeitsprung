@@ -20,10 +20,10 @@ zeitsprung.database module
    :undoc-members:
    :show-inheritance:
 
-zeitsprung.scrape module
-------------------------
+zeitsprung.scraping module
+--------------------------
 
-.. automodule:: zeitsprung.scrape
+.. automodule:: zeitsprung.scraping
    :members:
    :undoc-members:
    :show-inheritance:
