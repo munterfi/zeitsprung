@@ -18,8 +18,11 @@ zeitsprung
         :alt: Documentation Status
 
 .. image:: https://pyup.io/repos/github/munterfinger/zeitsprung/shield.svg
-     :target: https://pyup.io/repos/github/munterfinger/zeitsprung/
-     :alt: Updates
+        :target: https://pyup.io/repos/github/munterfinger/zeitsprung/
+        :alt: Updates
+
+.. image:: https://codecov.io/gh/munterfinger/zeitsprung/branch/master/graph/badge.svg
+        :target: https://codecov.io/gh/munterfinger/zeitsprung
 
 This package provides a scraper for www.zeitsprung.fm, a great history podcast.
 To get the metadata of all episodes from the website, simply start the scraper::
