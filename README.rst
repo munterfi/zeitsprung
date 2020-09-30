@@ -10,16 +10,19 @@ zeitsprung
 .. image:: https://img.shields.io/pypi/v/zeitsprung.svg
         :target: https://pypi.python.org/pypi/zeitsprung
 
-.. image:: https://img.shields.io/travis/munterfinger/zeitsprung.svg
-        :target: https://travis-ci.com/munterfinger/zeitsprung
+.. image:: https://github.com/munterfinger/zeitsprung/workflows/build/badge.svg
+        :target: https://github.com/munterfinger/zeitsprung/actions?query=workflow%3Abuild
 
 .. image:: https://readthedocs.org/projects/zeitsprung/badge/?version=latest
         :target: https://zeitsprung.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
 .. image:: https://pyup.io/repos/github/munterfinger/zeitsprung/shield.svg
-     :target: https://pyup.io/repos/github/munterfinger/zeitsprung/
-     :alt: Updates
+        :target: https://pyup.io/repos/github/munterfinger/zeitsprung/
+        :alt: Updates
+
+.. image:: https://codecov.io/gh/munterfinger/zeitsprung/branch/master/graph/badge.svg
+        :target: https://codecov.io/gh/munterfinger/zeitsprung
 
 This package provides a scraper for www.zeitsprung.fm, a great history podcast.
 To get the metadata of all episodes from the website, simply start the scraper::
