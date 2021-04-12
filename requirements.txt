@@ -13,6 +13,6 @@ pytest-cov==2.11.1
 codecov==2.1.11
 
 beautifulsoup4==4.9.3
-pandas==1.2.3
+pandas==1.2.4
 pydub==0.25.1
 requests==2.25.1
