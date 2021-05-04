@@ -6,7 +6,7 @@ flake8==3.9.1
 tox==3.23.0
 Sphinx==3.5.4
 twine==3.4.1
-pytest==6.2.3
+pytest==6.2.4
 pytest-runner==5.3.0
 pytest-cov==2.11.1
 codecov==2.1.11
