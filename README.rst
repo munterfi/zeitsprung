@@ -1,4 +1,4 @@
-.. image:: https://raw.githubusercontent.com/munterfinger/zeitsprung/master/docs/_static/logo.svg
+.. image:: https://raw.githubusercontent.com/munterfi/zeitsprung/master/docs/_static/logo.svg
    :width: 120 px
    :alt: zeitsprung.fm
    :align: right
@@ -10,19 +10,19 @@ zeitsprung
 .. image:: https://img.shields.io/pypi/v/zeitsprung.svg
         :target: https://pypi.python.org/pypi/zeitsprung
 
-.. image:: https://github.com/munterfinger/zeitsprung/workflows/build/badge.svg
-        :target: https://github.com/munterfinger/zeitsprung/actions?query=workflow%3Abuild
+.. image:: https://github.com/munterfi/zeitsprung/workflows/build/badge.svg
+        :target: https://github.com/munterfi/zeitsprung/actions?query=workflow%3Abuild
 
 .. image:: https://readthedocs.org/projects/zeitsprung/badge/?version=latest
         :target: https://zeitsprung.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://pyup.io/repos/github/munterfinger/zeitsprung/shield.svg
-        :target: https://pyup.io/repos/github/munterfinger/zeitsprung/
+.. image:: https://pyup.io/repos/github/munterfi/zeitsprung/shield.svg
+        :target: https://pyup.io/repos/github/munterfi/zeitsprung/
         :alt: Updates
 
-.. image:: https://codecov.io/gh/munterfinger/zeitsprung/branch/master/graph/badge.svg
-        :target: https://codecov.io/gh/munterfinger/zeitsprung
+.. image:: https://codecov.io/gh/munterfi/zeitsprung/branch/master/graph/badge.svg
+        :target: https://codecov.io/gh/munterfi/zeitsprung
 
 This package provides a scraper for www.zeitsprung.fm, a great history podcast.
 To get the metadata of all episodes from the website, simply start the scraper::

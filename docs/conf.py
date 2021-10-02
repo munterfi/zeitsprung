@@ -95,7 +95,7 @@ html_theme = 'alabaster'
 # documentation.
 #
 html_theme_options = {
-    'github_user': 'munterfinger',
+    'github_user': 'munterfi',
     'github_repo': 'zeitsprung'
 }
 
