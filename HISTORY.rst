@@ -2,6 +2,11 @@
 History
 =======
 
+0.1.1 (2021-10-02)
+------------------
+* Adjust URLs to GitHub account due to renaming @munterfinger to @munterfi.
+* Note: zeitsprung.fm has moved to geschichte.fm, therefore this project no longer is maintained.
+
 0.1.0 (2020-09-22)
 ------------------
 

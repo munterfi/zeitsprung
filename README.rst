@@ -24,6 +24,8 @@ zeitsprung
 .. image:: https://codecov.io/gh/munterfi/zeitsprung/branch/master/graph/badge.svg
         :target: https://codecov.io/gh/munterfi/zeitsprung
 
+Note: zeitsprung.fm has moved to geschichte.fm, therefore this project is no longer maintained.
+
 This package provides a scraper for www.zeitsprung.fm, a great history podcast.
 To get the metadata of all episodes from the website, simply start the scraper::
 
