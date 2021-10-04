@@ -8,7 +8,7 @@ Sphinx==4.2.0
 twine==3.4.2
 pytest==6.2.5
 pytest-runner==5.3.1
-pytest-cov==2.12.1
+pytest-cov==3.0.0
 codecov==2.1.12
 
 beautifulsoup4==4.10.0
